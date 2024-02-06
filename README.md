@@ -1,29 +1,11 @@
-# README #
+## Instrucciones
 
-This README would normally document whatever steps are necessary to get your application up and running.
+- La prueba tendrá una duración de 1 hora.
+- Puedes Usar google .
+- Subir el codigo al repositorio
+- Al final de la prueba voy a querer que me expliques tu código.
 
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+## Prueba Tecnica
+	- Crear un componente que me permita realizar una busqueda de usuarios utilizando la siguiente api "https://dummyjson.com/users/search?q=John". 
+	  Adicionalmnete podriamos agregar un scroll infinito
+	- Crear un componente que me permita ver el detalle del ususario seleccionado de la lista . Utilizando la api de "https://dummyjson.com/users/1"
