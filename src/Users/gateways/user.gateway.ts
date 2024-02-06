@@ -16,6 +16,15 @@ class UserGateway {
       };
       return HttpService.request<{  total: number; skip: number; limit: number; users: User[] }>({ config: options, queryParams });
   }
+
+  public async getOneUser({ id }: PayloadPropsInterface)
+  {
+    const options: any = {
+      url: `${baseUrl}/${users}/${id}`,
+      method: 'GET'
+    };
+    return HttpService.request<User>({ config: options });
+  }
 }
 
 export default UserGateway;

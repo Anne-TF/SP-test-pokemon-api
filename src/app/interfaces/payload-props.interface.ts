@@ -3,6 +3,6 @@ export interface PayloadPropsInterface<T=Record<string, any>>
     baseUrl?: string;
     user?: any | null;
     queryParams?: any;
-    id?: string;
+    id?: string | number;
     data?: T;
 };
