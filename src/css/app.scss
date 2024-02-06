@@ -1,0 +1,16 @@
+// app global css in SCSS form
+
+
+@for $size from 0 to 100 {
+  .hp-#{$size} {
+    min-height: #{$size + '%'} !important;
+    height: #{$size + '%'} !important;
+    max-height: #{$size + '%'} !important;
+  }
+
+  .wp-#{$size} {
+    min-width: #{$size + '%'} !important;
+    width: #{$size + '%'} !important;
+    max-width: #{$size + '%'} !important;
+  }
+}
